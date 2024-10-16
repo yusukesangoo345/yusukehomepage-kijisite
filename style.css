@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+}
+
+main {
+    flex: 1; /* 残りのスペースを占める */
+    padding: 20px;
+}
+
+aside {
+    width: 25%; /* サイドバーの幅 */
+    background-color: white;
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.article-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.read-more:hover {
+    background-color: #0056b3;
+}
+.pasokon_dansei {
+    height: 200px;
+}
+#sns {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.sns-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sns-list li {
+    margin: 10px 0;
+}
+
+.sns-list a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.sns-list a:hover {
+    text-decoration: underline;
+}
+#sns {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.sns-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sns-list li {
+    margin: 10px 0;
+}
+
+.sns-list a {
+    text-decoration: none;
+    color: #007bff;
+    display: flex;
+    align-items: center; /* アイコンとテキストを中央揃え */
+}
+
+.sns-list a i {
+    margin-right: 8px; /* アイコンとテキストの間にスペースを追加 */
+}
+
+.sns-list a:hover {
+    text-decoration: underline;
+}
+#categories {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.category-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.category-list li {
+    margin: 10px 0;
+}
+
+.category-list a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.category-list a:hover {
+    text-decoration: underline;
+}
