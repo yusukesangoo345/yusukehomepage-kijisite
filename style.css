@@ -1,19 +1,19 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #f4f4f4;
+    padding: 0;
 }
 
 header {
     background-color: #333;
-    color: white;
-    padding: 10px 0;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
 }
 
 nav ul {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
-    text-align: center;
 }
 
 nav ul li {
@@ -22,144 +22,101 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #fff;
     text-decoration: none;
 }
 
-nav ul li a:hover {
-    text-decoration: underline;
+.content {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
 }
 
-.container {
+h1, h2, h3 {
+    color: #333;
+}
+
+.post h2 {
+    font-size: 24px;
+}
+
+.post-meta {
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.author-box {
     display: flex;
-}
-
-main {
-    flex: 1; /* 残りのスペースを占める */
+    align-items: center;
     padding: 20px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin: 30px 0;
 }
 
-aside {
-    width: 25%; /* サイドバーの幅 */
-    background-color: white;
-    padding: 20px;
-    margin-left: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+.author-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
 }
 
-section {
-    background-color: white;
-    margin: 20px 0;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+.author-info {
+    flex: 1;
 }
 
-h2 {
-    margin-top: 0;
+.author-info h3 {
+    margin: 0;
+    color: #333;
 }
 
-.article-image {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
-
-.read-more {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 15px;
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.read-more:hover {
-    background-color: #0056b3;
-}
-.pasokon_dansei {
-    height: 200px;
-}
-#sns {
-    background-color: white;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
-}
-
-.sns-list {
-    list-style-type: none;
-    padding: 0;
-}
-
-.sns-list li {
+.author-intro {
+    color: #666;
     margin: 10px 0;
 }
 
-.sns-list a {
-    text-decoration: none;
-    color: #007bff;
-}
-
-.sns-list a:hover {
-    text-decoration: underline;
-}
-#sns {
-    background-color: white;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
-}
-
-.sns-list {
-    list-style-type: none;
-    padding: 0;
-}
-
-.sns-list li {
-    margin: 10px 0;
-}
-
-.sns-list a {
-    text-decoration: none;
-    color: #007bff;
+.social-links {
     display: flex;
-    align-items: center; /* アイコンとテキストを中央揃え */
+    gap: 10px;
 }
 
-.sns-list a i {
-    margin-right: 8px; /* アイコンとテキストの間にスペースを追加 */
+.social-icon {
+    color: #0077cc;
+    text-decoration: none;
+    font-size: 14px;
 }
 
-.sns-list a:hover {
-    text-decoration: underline;
-}
-#categories {
-    background-color: white;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
+.related-posts {
+    margin-top: 40px;
 }
 
-.category-list {
-    list-style-type: none;
+.related-posts h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.related-posts ul {
+    list-style: none;
     padding: 0;
 }
 
-.category-list li {
-    margin: 10px 0;
+.related-posts ul li {
+    margin-bottom: 10px;
 }
 
-.category-list a {
+.related-posts ul li a {
+    color: #0077cc;
     text-decoration: none;
-    color: #007bff;
 }
 
-.category-list a:hover {
-    text-decoration: underline;
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+.title {
+    color: white;
 }
