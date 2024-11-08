@@ -1,132 +1,59 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <head>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    </head>    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>記事サイト</title>
+    <title>記事タイトル</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <header>
+        <h1 class="title">ブログ</h1>
         <nav>
             <ul>
-                <li><a href="#articles">記事一覧</a></li>
+                <li><a href="index.html">ホーム</a></li>
+                <li><a href="contact.html">お問い合わせ</a></li>
+                <li><a href="blog.html">ブログ</a></li>
             </ul>
         </nav>
     </header>
 
-    <div class="container">
-        <main>
-            <section id="articles">
-                <h2>記事一覧</h2>
-                <article>
-                    <h3>記事タイトル 1</h3>
-                    <img src="images/article1.jpg" alt="記事1の画像" class="article-image">
-                    <p>この記事の概要がここに入ります。詳細な情報や考えを共有しましょう。</p>
-                    <a href="#article1" class="read-more">続きを読む</a>
-                </article>
-                <article>
-                    <h3>記事タイトル 2</h3>
-                    <img src="images/article2.jpg" alt="記事2の画像" class="article-image">
-                    <p>この記事の概要がここに入ります。詳細な情報や考えを共有しましょう。</p>
-                    <a href="#article2" class="read-more">続きを読む</a>
-                </article>
-                <article>
-                    <h3>記事タイトル 3</h3>
-                    <img src="images/article3.jpg" alt="記事3の画像" class="article-image">
-                    <p>この記事の概要がここに入ります。詳細な情報や考えを共有しましょう。</p>
-                    <a href="#article3" class="read-more">続きを読む</a>
-                </article>
-                <article>
-                    <h3>記事タイトル 4</h3>
-                    <img src="images/article4.jpg" alt="記事4の画像" class="article-image">
-                    <p>この記事の概要がここに入ります。詳細な情報や考えを共有しましょう。</p>
-                    <a href="#article4" class="read-more">続きを読む</a>
-                </article>
-                <article>
-                    <h3>記事タイトル 5</h3>
-                    <img src="images/article5.jpg" alt="記事5の画像" class="article-image">
-                    <p>この記事の概要がここに入ります。詳細な情報や考えを共有しましょう。</p>
-                    <a href="#article5" class="read-more">続きを読む</a>
-                </article>
-                <article>
-                    <h3>記事タイトル 6</h3>
-                    <img src="images/article6.jpg" alt="記事6の画像" class="article-image">
-                    <p>この記事の概要がここに入ります。詳細な情報や考えを共有しましょう。</p>
-                    <a href="#article6" class="read-more">続きを読む</a>
-                </article>
+    <main class="content">
+        <article class="post">
+            <h2>【お知らせ】サイトリニューアルしました！</h2>
+            <p class="post-meta">執筆者: <span class="author">岡田 祐介</span> | <span class="date">2024年11月8日</span></p>
+            <p>こんにちは！祐介と申します。</p>
+            <p>サイト、リニューアルしました！あまり、ブログについては変わっていないんですがホームは結構リニューアルしてSimple is bestにいたしました！！</p>
+            <p>他にもいろいろアップデートしていく予定ですのでお楽しみに～！！</p>
+
+            <!-- 執筆者情報ボックス -->
+            <section class="author-box">
+                <img src="https://pbs.twimg.com/profile_images/1854756563195772928/CVsY89Me_400x400.jpg" alt="執筆者アイコン" class="author-icon">
+                <div class="author-info">
+                    <h3>執筆者: 岡田 祐介</h3>
+                    <p class="author-intro">文系の学生。自称Youtuber。ウィキペディアンでもある。</p>
+                    <div class="social-links">
+                        <a href="https://x.com/chynxingti1" class="social-icon">Twitter</a>
+                        <a href="https://www.facebook.com/profile.php?id=61552052670935" class="social-icon">Facebook</a>
+                        <a href="www.linkedin.com/in/yusuke-okada-63b657337" class="social-icon">LinkedIn</a>
+                    </div>
+                </div>
             </section>
-        </main>
 
-        <aside>
-            <section id="about">
-                <h2>私について</h2>
-                <img src="https://iconbu.com/wp-content/uploads/2020/01/%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3%E3%82%92%E3%81%99%E3%82%8B%E7%94%B7%E6%80%A7%E3%81%AE%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88.jpg" alt="" class="pasokon_dansei">
-                <h4>祐介</h4>
-                <p>名ばかりのクリエイター。ブログやyoutube活動を主にやっている。生息地はXである</p>
-                </section>
-                <section id="sns">
-                    <h2>SNS</h2>
-                    <ul class="sns-list">
-                        <li>
-                            <a href="https://x.com/Yusukechannel_4" target="_blank">
-                                <i class="fab fa-twitter"></i> X (本垢)
-                            </a>
-                        </li>
-                        <a>
-                            <li>
-                                <a herf="https://x.com/chynxingti1" target="_blank">
-                                    <i class="fab fa-twitter"></i> X(開発垢)
-                            </li>
-                        </a>
-                        <li>
-                            <a href="https://instagram.com/your_profile" target="_blank">
-                                <i class="fab fa-instagram"></i> Instagram
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://yusukesangoo345.github.io/yusukenohomepage/" target="_blank">
-                                <i class="fas fa-blog"></i> ブログ
-                            </a>
-                        </li>
-                    </ul>
-                </section>
-                <section id="categories">
-                    <h2>カテゴリ</h2>
-                    <ul class="category-list">
-                        <li><a href="category1.html">カテゴリ 1</a></li>
-                        <li><a href="category2.html">カテゴリ 2</a></li>
-                        <li><a href="category3.html">カテゴリ 3</a></li>
-                    </ul>
-                    </section>
-                    <section id="new-articles">
-                        <h2>新着記事</h2>
-                        <ul class="article-list">
-                            <li>
-                                <a href="article1.html">新着記事タイトル 1</a>
-                                <span class="date">2024年10月1日</span>
-                            </li>
-                            <li>
-                                <a href="article2.html">新着記事タイトル 2</a>
-                                <span class="date">2024年10月5日</span>
-                            </li>
-                        </ul>
-                    </section>
-                    
-                    <section id="monthly-articles">
-                        <h2>月ごとの記事</h2>
-                        <ul class="month-list">
-                            <li><a href="2024-10.html">2024年10月</a></li>
-                        </ul>
-                    </section>
-                    
+            <!-- 関連記事セクション -->
+            <section class="related-posts">
+                <h3>関連記事</h3>
+                <ul>
+                    <li><a href="post2.html">関連記事タイトル 1</a></li>
+                    <li><a href="post3.html">関連記事タイトル 2</a></li>
+                    <li><a href="post4.html">関連記事タイトル 3</a></li>
+                </ul>
+            </section>
+        </article>
+    </main>
 
-
-    <script src="scripts.js"></script>
-
+    <footer>
+        <p>&copy; 2024 岡田 祐介</p>
+    </footer>
 </body>
 </html>
